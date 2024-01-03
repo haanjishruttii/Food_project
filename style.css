@@ -135,6 +135,7 @@
     height: 160px;
     margin: auto;
     display: block;
+    border-radius: 20px; c
 }
 
 .box img{
@@ -222,6 +223,23 @@
 
 #contact-box label{
     font-size: 1.3rem;
+}
+#lastbtn{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(163, 8, 8);
+    border: 3px solid black;
+    box-shadow: 10px 10px -10px rgb(241, 157, 157);
+    cursor: pointer;
+    font-size:larger;
+    margin-left: 41%;
+    box-shadow: 0 0 10px white;
+    border-radius: 15px;
+    font-style: italic;
+}
+
+#lastbtn:hover{
+    box-shadow: 0 0 20px whitesmoke;
 }
 
 footer{
